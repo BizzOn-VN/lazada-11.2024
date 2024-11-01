@@ -142,14 +142,17 @@ img{
   margin: 0 auto 5% auto;
   position: relative;
 }
-.md-row-sp .row{
+.md-row-sp .md-row{
   position: relative;
   z-index: 1;
 }
-.md-row-sp .col-4{
+.md-row-sp .md-col-4{
   position: relative;
+  width: 32%;
+  float: left;
+  margin-right: 1.333333%;
 }
-.md-row-sp .col-4 a{
+.md-row-sp .md-col-4 a{
   position: absolute;
   left: 49%;
   transform: translateX(-50%);
@@ -349,6 +352,7 @@ img{
   }
   .md-row-sp{
     margin-bottom: 10%;
+    width: 90%;
   }
   .md-voucher{
     margin-bottom: 10%;
