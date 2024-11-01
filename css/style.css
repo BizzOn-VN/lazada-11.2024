@@ -319,7 +319,7 @@ img{
   }
   .md-form form{
     float: none;
-    width: 50%;
+    width: 60%;
     display: table;
     margin: 0 auto;
   }
@@ -332,6 +332,9 @@ img{
     right: 0;
     bottom: 54%;
     width: 32%;
+  }
+  .md-form form input{
+    padding: 10px;
   }
   .md-form form input[type='button']{
     display: table;
