@@ -24,4 +24,4 @@ jQuery(document).on("ready",function () {
 
 
 
-
+// $("#md-tk").fancybox({}).trigger('click'); //

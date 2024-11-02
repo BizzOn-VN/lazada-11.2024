@@ -375,3 +375,20 @@ img{
     top: 48%;
   }
 }
+.md-tk{
+  display: none;
+  background: #ffc4ec;
+  color: #000;
+  text-align: center;
+}
+.md-tk p{
+  margin-bottom: 10px;
+}
+.md-tk a{
+  display: inline-block;
+  background: #0876ff;
+  color: #FFF;
+  padding: 7px 15px 3px 15px;
+  border-radius: 5px;
+  line-height: 1;
+}
