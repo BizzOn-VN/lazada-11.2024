@@ -212,6 +212,7 @@ img{
   border-radius: 5px;
   background: #ffc4ec;
   padding: 20px;
+  margin-bottom: 0px;
 
 }
 .md-form form .input-file span{
