@@ -219,10 +219,23 @@ img{
   display: block;
   font-size: calc(2px + 0.6vw);
 }
+.md-form form .input-file p{
+  margin-bottom: 5px;
+  font-size: calc(2px + 1vw);
+  font-weight: 700;
+}
 .md-form form .input-file .md-blue{
   color: #0876ff;
   text-decoration: underline;
-  margin: 15px 0px;
+  margin: 0px 0px 5px 0px;
+}
+.md-form form .input-file img{
+  width: 30%;
+  float: left;
+}
+.md-form form .input-file .md-content-form{
+  float: right;
+  width: 68%;
 }
 .md-form form input {
   width: 100%;
@@ -230,7 +243,7 @@ img{
   border: none;
   padding: 15px 10px;
   line-height: 1;
-  text-align: center;
+  
 }
 .md-form form input[type='button']{
   width: 25%;
@@ -238,6 +251,7 @@ img{
   background: #0876ff;
   font-family: 'EuclidCircularAVN-Bold';
   color: #FFF;
+  text-align: center;
 }
 .md-form .md-col{
   margin-bottom: 20px;
@@ -299,6 +313,19 @@ img{
   }
   .md-desktop{
     display: none;
+  }
+  .md-form form .input-file img{
+    float: none;
+    width: 50%;
+    display: table;
+    margin: 0 auto 10px auto;
+  }
+  .md-form form .input-file .md-content-form{
+    float: none;
+    width: 100%;
+  }
+  .md-form form .input-file p{
+    font-size: calc(10px + 1vw);
   }
   .banner{
     padding: 0px 10%;
