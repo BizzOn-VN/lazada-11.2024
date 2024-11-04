@@ -310,6 +310,7 @@ img{
   background-color: #fc3f87;
   display: none;
   width: 40%;
+  border-radius: 10px;
 }
 .md-tieu-chi p{
   margin-bottom: 10px;
@@ -453,6 +454,7 @@ img{
   background-repeat: repeat;
   background-color: #fc3f87;
   text-align: center;
+  border-radius: 10px;
 }
 .md-tk p{
   margin-bottom: 10px;
