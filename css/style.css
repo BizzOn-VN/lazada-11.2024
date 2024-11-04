@@ -130,11 +130,11 @@ img{
   width: 100%;
 }
 .banner{
-  padding: 0% 3% 0% 10%;
+  padding: 0% 3% 5% 10%;
 }
 .headline-1{
-  width: 87%;
-  margin-left: 11%;
+  width: 50%;
+  margin-left: 25%;
 }
 .md-row-sp{
   width: 80%;
@@ -169,15 +169,22 @@ img{
   top: 65%;
   width: 30%;
 }
+.ico-8{
+  position: absolute;
+  left: -11%;
+    z-index: 0;
+    top: -22%;
+    width: 30%;
+}
 .headline-2{
-  width: 85%;
+  width: 60%;
   display: table;
   margin: 0 auto 0 auto;
 }
 .md-voucher{
-  width: 35%;
+  width: 45%;
   display: table;
-  margin: 0% auto 2% auto;
+  margin: -1% 0% 5% 32%;
 }
 .md-form{
   position: relative;
@@ -365,7 +372,7 @@ img{
     font-size: calc(10px + 1vw);
   }
   .banner{
-    padding: 0px 10%;
+    padding: 0px 10% 5% 10%;
   }
   .headline-1{
     width: 80%;
@@ -373,6 +380,9 @@ img{
     margin: 0 auto;
   }
   .ico-5{
+    display: none;
+  }
+  .ico-8{
     display: none;
   }
   .headline-2{
