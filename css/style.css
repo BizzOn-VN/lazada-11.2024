@@ -211,31 +211,37 @@ img{
   color: #000;
   border-radius: 5px;
   background: #ffc4ec;
-  padding: 20px;
+  padding: 20px 20px 30px;
   margin-bottom: 0px;
-
+  display: table;
+  position: relative;
 }
 .md-form form .input-file span{
   display: block;
   font-size: calc(2px + 0.6vw);
 }
 .md-form form .input-file p{
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-size: calc(2px + 1vw);
   font-weight: 700;
 }
-.md-form form .input-file .md-blue{
+.md-form form .input-file a{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: calc(2px + 1vw);
   color: #0876ff;
   text-decoration: underline;
-  margin: 0px 0px 5px 0px;
 }
 .md-form form .input-file img{
-  width: 30%;
-  float: left;
+/*  width: 40%;*/
+  display: table-cell;
+  vertical-align: middle;
 }
 .md-form form .input-file .md-content-form{
-  float: right;
-  width: 68%;
+  display: table-cell;
+  width: 60%;
+  vertical-align: middle;
 }
 .md-form form input {
   width: 100%;
@@ -297,6 +303,26 @@ img{
   background: #ff7cb3;
   border-radius: 50%;
 }
+.md-tieu-chi{
+  background-image: url(../images/bg-main.png);
+  background-size: 100% auto;
+  background-repeat: repeat;
+  background-color: #fc3f87;
+  display: none;
+  width: 40%;
+}
+.md-tieu-chi p{
+  margin-bottom: 10px;
+}
+.md-tieu-chi .ctn-close{
+  position: relative;
+  width: auto;
+  background: url(../images/img-7.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 5px 15px 7px 15px;
+    height: auto;
+    opacity: 1;
+}
 
 .md-mobile{
   display: none;
@@ -313,6 +339,16 @@ img{
   }
   .md-desktop{
     display: none;
+  }
+  .md-tieu-chi{
+    width: 100%;
+  }
+  .md-form form .input-file{
+    display: block;
+    padding: 20px 20px 40px;
+  }
+  .md-form form .input-file a{
+    font-size: calc(8px + 1vw);
   }
   .md-form form .input-file img{
     float: none;
@@ -412,8 +448,10 @@ img{
 }
 .md-tk{
   display: none;
-  background: #ff0066;
-  color: #FFF;
+   background-image: url(../images/bg-main.png);
+  background-size: 100% auto;
+  background-repeat: repeat;
+  background-color: #fc3f87;
   text-align: center;
 }
 .md-tk p{
@@ -421,9 +459,9 @@ img{
 }
 .md-tk a{
   display: inline-block;
-  background: #0876ff;
-  color: #FFF;
-  padding: 6px 15px 4px 15px;
-  border-radius: 5px;
+  background: url(../images/img-7.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 5px 15px 7px 15px;
   line-height: 1;
+  color: #FFF;
 }
