@@ -230,10 +230,11 @@ img{
   border: none;
   padding: 15px 10px;
   line-height: 1;
+  text-align: center;
 }
 .md-form form input[type='button']{
   width: 25%;
-  padding: 10px 0px 5px;
+  padding: 5px 0px 5px;
   background: #0876ff;
   font-family: 'EuclidCircularAVN-Bold';
   color: #FFF;
@@ -349,7 +350,7 @@ img{
     width: 50%;
   }
   .footer{
-    display: none;
+/*    display: none;*/
   }
   .md-form form .input-file span{
     font-size: calc(7px + 0.5vw);
