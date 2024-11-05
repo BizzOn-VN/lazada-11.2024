@@ -240,6 +240,8 @@ img{
   font-size: calc(2px + 1vw);
   color: #0876ff;
   text-decoration: underline;
+  width: 100%;
+  text-align: center;
 }
 .md-form form .input-file img{
 /*  width: 40%;*/
