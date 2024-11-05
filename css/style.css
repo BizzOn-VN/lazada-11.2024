@@ -394,14 +394,14 @@ img{
   }
   .md-text{
     text-align: center;
-    width: 60%;
-    display: table;
-    margin: 0 auto 10% auto;
+    width: 55%;
+    margin-left: 5%;
+    margin-bottom: 10%;
   }
   .md-form .img-5{
     float: none;
-    width: 80%;
-    margin-bottom: 15%;
+    width: 100%;
+    margin-bottom: 2%;
   }
   .md-form form{
     float: none;
@@ -415,9 +415,9 @@ img{
   }
   .md-form .img-6{
     left: auto;
-    right: 0;
-    bottom: 54%;
-    width: 32%;
+    right: 3%;
+    bottom: 58%;
+    width: 38%;
   }
   .md-form form input{
     padding: 10px;
