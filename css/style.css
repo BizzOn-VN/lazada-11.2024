@@ -228,14 +228,15 @@ img{
   font-size: calc(2px + 0.6vw);
 }
 .md-form form .input-file p{
-  margin-bottom: 0px;
+  margin-bottom: 3px;
   font-size: calc(2px + 1vw);
   font-weight: 700;
 }
 .md-form form .input-file a{
   position: absolute;
-  right: 5%;
+  left: 50%;
   bottom: 5%;
+  transform: translateX(-50%);
   font-size: calc(2px + 1vw);
   color: #0876ff;
   text-decoration: underline;
@@ -247,7 +248,7 @@ img{
 }
 .md-form form .input-file .md-content-form{
   display: table-cell;
-  width: 60%;
+  width: 70%;
   vertical-align: middle;
 }
 .md-form form input {
@@ -259,12 +260,13 @@ img{
   
 }
 .md-form form input[type='button']{
-  width: 25%;
+  width: 30%;
   padding: 5px 0px 5px;
   background: #0876ff;
   font-family: 'EuclidCircularAVN-Bold';
   color: #FFF;
   text-align: center;
+  font-size: calc(6px + 1vw);
 }
 .md-form .md-col{
   margin-bottom: 20px;
@@ -295,6 +297,7 @@ img{
 }
 .footer p{
   margin-bottom: 2px;
+  font-size: calc(10px + 1vw);
 }
 .footer a{
   display: block;
@@ -360,7 +363,7 @@ img{
   }
   .md-form form .input-file img{
     float: none;
-    width: 50%;
+    width: 40%;
     display: table;
     margin: 0 auto 10px auto;
   }
@@ -423,6 +426,10 @@ img{
     display: table;
     margin: 0 auto;
     width: 50%;
+    font-size: calc(10px + 1vw);
+  }
+  .md-form{
+    margin-bottom: 7%;
   }
   .footer{
 /*    display: none;*/
