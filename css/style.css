@@ -179,11 +179,11 @@ img{
 .headline-2{
   width: 60%;
   display: table;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 5% auto;
 }
 .md-voucher{
   width: 45%;
-  display: table;
+  display: none;
   margin: -1% 0% 5% 32%;
 }
 .md-form{
